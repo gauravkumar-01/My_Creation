@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Work</title>
+    <style>
+        #setup{
+            background-color: rgb(111, 111, 234);
+            width : 250px;
+            height : 300px;
+            box-shadow: -8px 8px grey;
+            margin : 25px;
+            padding : 5px;
+            /* position : absolute; */
+        }
+        #inh2{
+            background-color: black;
+            color: white;
+            /* position : absolute; */
+            /* margin-top: 500px; */
+        }
+
+        #total{
+            border: 2px solid black;
+            border-radius: 15px;
+            width : 200px;
+            padding : 5px;
+            position : absolute;
+            margin-left: 750px;
+            margin-top : 70px;
+            animation : totl 20s forwards;
+            animation-delay : 0s;
+        }
+
+        @keyframes totl{
+            0%{
+                opacity : 0;
+            }
+            25%{
+                opacity : 0;
+            }
+            50%{
+                opacity : 0;
+            }
+            75%{
+                opacity : 0;
+            }
+            90%{
+                opacity : 0;
+            }
+            100%{
+                opacity : 1;
+            }
+        }
+        
+
+        #Anglst{
+            width : 250px;
+            background-color: rgb(248, 181, 100);
+            position : absolute;
+            margin-top: 500px;
+            margin-left: 700px;
+            padding: 5px;
+            animation : agl 34s forwards;
+            animation-delay : 0s;
+        }
+
+        @keyframes agl{
+            0%{
+                opacity : 0;
+            }
+            25%{
+                opacity : 0;
+            }
+            50%{
+                opacity : 0;
+            }
+            75%{
+                opacity : 0;
+            }
+            90%{
+                opacity : 0;
+            }
+            100%{
+                opacity : 1;
+            }
+        }
+
+        #s{
+            border : 2px solid black;
+            width : 200px;
+            height : 100px;
+            padding-left: 5px;
+            /* position : absolute; */
+        }
+        #raise{
+            background-color: black;
+            color : white;
+            position : absolute;
+            margin-top : 400px;
+            margin-left : 150px;
+            animation : ras 4s forwards;
+            animation-delay: 0s;
+        }
+
+        @keyframes ras{
+            0%{
+                opacity : 0;
+            }
+            25%{
+                opacity : 0;
+            }
+            50%{
+                opacity : 0;
+            }
+            75%{
+                opacity : 0;
+            }
+            100%{
+                opacity : 1;
+            }
+        }
+
+
+        #div3{
+            width : 300px;
+            /* background-color: blue; */
+            position: absolute;
+            margin-left: 1150px;
+            margin-top : 210px;
+            animation : dvthree 68s forwards;
+            animation-delay : 0s;
+        }
+
+        @keyframes dvthree{
+            0%{
+                opacity : 0;
+            }
+            25%{
+                opacity : 0;
+            }
+            50%{
+                opacity : 0;
+            }
+            75%{
+                opacity : 0;
+            }
+            100%{
+                opacity : 1;
+            }
+        }
+
+        #invest{
+            background-color: black;
+            color : white;
+            position : absolute;
+            margin-top: 365px;
+            margin-left: 900px;
+            animation : invs 48s forwards;
+            animation-delay : 0s;
+        }
+
+        @keyframes invs{
+            0%{
+                opacity : 0;
+            }
+            25%{
+                opacity : 0;
+            }
+            50%{
+                opacity : 0;
+            }
+            75%{
+                opacity : 0;
+            }
+            100%{
+                opacity : 1;
+            }
+        }
+
+        #deploy{
+            background-color: black;
+            color : white;
+            position : absolute;
+            margin-top: 280px;
+            margin-left: 760px;
+            animation : dep 26s forwards;
+            animation-delay: 0;
+        }
+
+        @keyframes dep{
+            0%{
+                opacity : 0;
+            }
+            25%{
+                opacity : 0;
+            }
+            50%{
+                opacity : 0;
+            }
+            75%{
+                opacity : 0;
+            }
+            90%{
+                opacity : 0;
+            }
+            100%{
+                opacity : 1;
+            }
+        }
+
+        #l1{
+            animation:down 3s forwards;
+            background-color: red;
+            width : 2px;
+            /* height : 60px; */
+            margin-left: 170px;
+            position : absolute;
+            /* animation-delay : 2s; */
+        }
+
+        @keyframes down{
+     
+            0%{
+                height : 0px;
+            }
+            100%{
+                height : 60px;
+            }
+        }
+
+        #investers{
+            background-color: aqua;
+            width : 250px;
+            /* border : 2px solid black; */
+            /* position : absolute; */
+            margin-top: 1px;
+            margin-left: 400px;
+            /* display : none; */
+            /* visibility: hidden; */
+            animation : invest 11s forwards;
+            animation-delay : 0s;
+        }
+
+        @keyframes invest{
+            0%{
+                opacity : 0;
+            }
+            25%{
+                opacity : 0;
+            }
+            50%{
+                opacity : 0;
+            }
+            75%{
+                opacity : 0;
+            }
+            100%{
+                opacity : 1;
+            }
+        }
+        #l2{
+            animation:linetwo 3s forwards;
+            background-color: red;
+            /* width : 200px; */
+            height : 2px;
+            margin-left: 170px;
+            position : absolute;
+            margin-top : 407px;
+            margin-left: 200px;
+            animation-delay : 5s;
+        }
+
+        @keyframes linetwo{
+     
+        0%{
+            width : 0px;
+        }
+        100%{
+            width : 200px;
+        }
+    }
+
+        #l3{
+            animation:linethree 3s forwards;
+            /* animation-direction: reverse; */
+            background-color: red;
+            width : 2px;
+            /* height : 200px; */
+            margin-left: 520px;
+            position : absolute;
+            margin-top: 135px;
+            animation-delay : 10s;
+        }
+
+        @keyframes linethree{
+    
+        0%{
+         height : 0px;
+        }
+        100%{
+            height : 200px;
+        }
+    }
+        #l4{
+            animation : linefour 3s forwards;
+            background-color: red;
+            /* width : 230px; */
+            height : 2px;
+            margin-left: 520px;
+            position : absolute;
+            margin-top : 135px;
+            /* margin-left: 200px; */
+            animation-delay : 14s;
+        }
+
+        @keyframes linefour{
+     
+        0%{
+            width : 0px;
+        }
+        100%{
+            width : 230px;
+        }
+ }
+
+        #l5{
+            animation:linefive 3s forwards;
+            background-color: red;
+            width : 2px;
+            /* height : 90px; */
+            margin-left: 790px;
+            position : absolute;
+            margin-top: 190px;
+            animation-delay : 20s;
+        }
+
+        @keyframes linefive{
+     
+        0%{
+            height : 0px;
+        }
+        100%{
+            height : 90px;
+        }
+    }
+
+        #l6{
+            animation:linesix 3s forwards;
+            background-color: red;
+            width : 2px;
+            /* height : 200px; */
+            margin-left: 790px;
+            position : absolute;
+            margin-top: 300px;
+            animation-delay : 27s;
+        }
+
+        @keyframes linesix{
+     
+        0%{
+            height : 0px;
+        }
+        100%{
+            height : 200px;
+        }
+    }
+
+        #l7{
+            animation:lineseven 3s forwards;
+            background-color: red;
+            width : 2px;
+            /* height : 115px; */
+            margin-left: 940px;
+            position : absolute;
+            margin-top: 385px;
+            animation-delay : 35s;
+        }
+
+        @keyframes lineseven{
+     
+        0%{
+            height : 0px;
+        }
+        100%{
+            height : 115px;
+        }
+    }
+
+        #l8{
+            animation:lineeight 3s forwards;
+            background-color: red;
+            /* width : 100px; */
+            height : 2px;
+            margin-left: 1050px;
+            position : absolute;
+            margin-top : 270px;
+            animation-delay : 48s;
+        }
+
+        @keyframes lineeight{
+     
+        0%{
+            width : 0px;
+        }
+        100%{
+            width : 100px;
+        }
+    }
+
+        #l9{
+            animation:linenine 3s forwards;
+            background-color: red;
+            /* width : 173px; */
+            height : 2px;
+            margin-left: 977px;
+            position : absolute;
+            margin-top : 375px;
+            animation-delay : 44s;
+        }
+
+        @keyframes linenine{
+     
+        0%{
+            width : 0px;
+        }
+        100%{
+            width : 173px;
+     }
+ }
+
+
+        #l10{
+            animation:lineten 3s forwards;
+            background-color: red;
+            /* width : 100px; */
+            height : 2px;
+            position : absolute;
+            margin-top : 470px;
+            margin-left: 1050px;
+            animation-delay : 48s;
+        }
+
+
+        @keyframes lineten{
+     
+        0%{
+            width : 0px;
+        }
+        100%{
+            width : 100px;
+        }
+    }
+
+
+        #l11{
+            animation:lineeleven 3s forwards;
+            background-color: red;
+            width : 2px;
+            /* height : 200px; */
+            margin-left: 1050px;
+            position : absolute;
+            margin-top: 270px;
+            animation-delay : 48s;
+        }
+
+        @keyframes lineeleven{
+     
+     0%{
+        height : 0px;
+     }
+     100%{
+        height : 200px;
+     }
+ }
+        
+    </style>
+</head>
+<body>
+
+    <div id = "total">
+        <h4>Total</h4>
+        <h2>$6.5M</h2>
+    </div>
+
+
+    <span id = "invest"> Investments</span>
+
+    <span id = "deploy"> DEPLOY</span>
+
+    <div id = "Anglst">
+        <h2>AngelList</h2>
+        <p> Angel list takes care of everything to you choose the best startups to invest.</p>
+    </div>
+
+
+    <div id = "div3">
+        <div id = "s">
+            <h2>Startup A</h2>
+            <h2>$2,500.000</h2>
+        </div>
+
+        <div id = "s">
+            <h2>Startup B</h2>
+            <h2>$2,500.000</h2>
+        </div>
+
+        <div id = "s">
+            <h2>Startup C</h2>
+            <h2>$2,500.000</h2>
+        </div>
+    </div>
+
+
+    <span id = "raise">RAISE</span>
+
+    <div id = "l2"></div>
+
+
+    <div id = "l3"></div>
+
+    <div id = "l4"></div>
+
+    <div id = "l5"></div>
+
+    <div id = "l6"></div>
+
+    <div id = "l7"></div>
+
+    <div id = "l8"></div>
+
+    <div id = "l9"></div>
+
+    <div id = "l10"></div>
+
+    <div id = "l11"></div>
+
+    <div id = "setup">
+        <h2>Setup Fund</h2>
+        <br> <br>
+        <li>Accounting</li> <br>
+        <li>Taxes</li>  <br>
+        <li>LP Management Software</li> <br>
+        <li>Valuation</li>  <br>
+        <li>Account Management</li> <br>
+    </div>
+
+    <div id = "l1"></div>
+
+    
+    <div id = "investers">
+        <h2 id = "inh2">INVESTORS</h2>
+        <span> GAURAV KUMAR </span> &nbsp; &nbsp; &nbsp; &nbsp;
+        <span> $2,500.000</span>
+        <br>
+        <hr>
+        <span> LALIT YADAV </span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <span> $4,000.000</span>
+    </div>
+
+    
+    <br><br>
+    
+</body>
+</html>
